@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lektion 3 — Ответы</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #faf8f5;
+    --card: #ffffff;
+    --accent: #4a6741;
+    --accent-light: #e8efe6;
+    --text: #2c2c2c;
+    --text-muted: #7a7a7a;
+    --border: #e5e0da;
+    --number-bg: #4a6741;
+    --number-text: #fff;
+    --task-bg: #f5f2ed;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Source Sans 3', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    padding: 40px 20px 80px;
+    min-height: 100vh;
+  }
+
+  .container {
+    max-width: 680px;
+    margin: 0 auto;
+  }
+
+  header {
+    text-align: center;
+    margin-bottom: 48px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  header h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--accent);
+    letter-spacing: -0.02em;
+    margin-bottom: 6px;
+  }
+
+  header .subtitle {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+  }
+
+  .task {
+    margin-bottom: 40px;
+  }
+
+  .task-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+
+  .task-number {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: var(--number-bg);
+    color: var(--number-text);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.95rem;
+    flex-shrink: 0;
+  }
+
+  .task-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--text);
+  }
+
+  .task-desc {
+    font-size: 0.88rem;
+    color: var(--text-muted);
+    margin-bottom: 14px;
+    padding-left: 48px;
+    font-style: italic;
+  }
+
+  .answers {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px 28px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  }
+
+  .answer-item {
+    padding: 10px 0;
+    border-bottom: 1px solid #f0ece7;
+    display: flex;
+    gap: 10px;
+  }
+
+  .answer-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .answer-item:first-child {
+    padding-top: 0;
+  }
+
+  .answer-num {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.85rem;
+    color: var(--accent);
+    font-weight: 400;
+    min-width: 24px;
+    padding-top: 2px;
+  }
+
+  .answer-text {
+    flex: 1;
+  }
+
+  .answer-text .de {
+    font-weight: 600;
+    color: var(--text);
+    font-size: 1.02rem;
+  }
+
+  .answer-text .bg {
+    font-weight: 600;
+    color: var(--text);
+    font-size: 1.02rem;
+  }
+
+  .answer-text .hint {
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    margin-top: 2px;
+  }
+
+  .fill-answer {
+    display: inline;
+    background: var(--accent-light);
+    padding: 1px 8px;
+    border-radius: 4px;
+    font-weight: 600;
+    color: var(--accent);
+  }
+
+  .text-block {
+    font-size: 0.97rem;
+    line-height: 1.85;
+    color: var(--text);
+  }
+
+  .text-block .gap-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.78rem;
+    color: var(--accent);
+    vertical-align: super;
+    margin: 0 1px;
+  }
+
+  @media print {
+    body { padding: 20px; background: #fff; }
+    .answers { box-shadow: none; border: 1px solid #ccc; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+<header>
+  <h1>Lektion 3 — Ответы</h1>
+  <div class="subtitle">Aufgaben 31–34 · Deutsch–Bulgarisch</div>
+</header>
+
+<!-- TASK 31 -->
+<div class="task">
+  <div class="task-header">
+    <div class="task-number">31</div>
+    <div class="task-title">Lies den Text und ergänze</div>
+  </div>
+  <div class="task-desc">Вставь пропущенные предложения (A–E) в текст</div>
+  <div class="answers">
+    <div class="text-block">
+      Wir wohnen in einem Reihenhaus und mein Zimmer ist oben im ersten Stock.
+      <span class="gap-label">1→</span> <span class="fill-answer">B</span>
+      Und ich habe sowieso viel Platz für mich, denn mein kleiner Bruder Florian hat sein eigenes Zimmer. Mein Zimmer gefällt mir sehr. Darin sind ein Bett, ein Bücherregal, ein Schreibtisch, ein Sessel, ein Kleiderschrank und eine große Spielzeugkiste. Der Schreibtisch steht vor dem Fenster (der Ausblick ist nicht sehr interessant) und auf dem Schreibtisch steht mein neuer PC!
+      <span class="gap-label">2→</span> <span class="fill-answer">E</span>
+      Im Bücherregal stehen nicht nur die Schulbücher, sondern auch meine Comichefte und CDs. Der Schrank (er steht neben dem Schreibtisch) ist immer voll:
+      <span class="gap-label">3→</span> <span class="fill-answer">A</span>
+      Nur eines stört mich: die Spielzeugkiste in der Ecke.
+      <span class="gap-label">4→</span> <span class="fill-answer">C</span>
+      Drinnen sind nur alte Spielsachen. Und ich brauche Platz! Denn mein Zimmer ist auch eine Art Treffpunkt für meine Freunde.
+    </div>
+    <div style="margin-top:16px; padding-top:14px; border-top:1px dashed #e0dbd5;">
+      <div class="answer-item" style="border:none;padding:4px 0;">
+        <span class="answer-num">D</span>
+        <span class="answer-text"><span class="de">Mein Bett ist super bequem.</span>
+          <div class="hint">→ не используется (лишнее предложение)</div></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- TASK 32 -->
+<div class="task">
+  <div class="task-header">
+    <div class="task-number">32</div>
+    <div class="task-title">Sag es auf Deutsch</div>
+  </div>
+  <div class="task-desc">Переведи на немецкий</div>
+  <div class="answers">
+    <div class="answer-item">
+      <span class="answer-num">1.</span>
+      <span class="answer-text">
+        <span class="de">Ich wohne in einem Einfamilienhaus am Stadtrand.</span>
+        <div class="hint">Живея в еднофамилна къща в покрайнините на града.</div>
+      </span>
+    </div>
+    <div class="answer-item">
+      <span class="answer-num">2.</span>
+      <span class="answer-text">
+        <span class="de">Das Haus ist groß und modern.</span>
+        <div class="hint">Къщата е голяма и модерна.</div>
+      </span>
+    </div>
+    <div class="answer-item">
+      <span class="answer-num">3.</span>
+      <span class="answer-text">
+        <span class="de">Meine Wohnung ist 80 Quadratmeter groß.</span>
+        <div class="hint">Жилището ми е 80 кв. м.</div>
+      </span>
+    </div>
+    <div class="answer-item">
+      <span class="answer-num">4.</span>
+      <span class="answer-text">
+        <span class="de">Meine Wohnung ist im ersten Stock.</span>
+        <div class="hint">Жилището ми е на първия етаж.</div>
+      </span>
+    </div>
+    <div class="answer-item">
+      <span class="answer-num">5.</span>
+      <span class="answer-text">
+        <span class="de">Der Schreibtisch steht in der Ecke neben dem Fenster und neben dem Sofa.</span>
+        <div class="hint">Бюрото стои в ъгъла до прозореца и до дивана.</div>
+      </span>
+    </div>
+  </div>
+</div>
+
+<!-- TASK 33 -->
+<div class="task">
+  <div class="task-header">
+    <div class="task-number">33</div>
+    <div class="task-title">Frag auf Deutsch</div>
+  </div>
+  <div class="task-desc">Задай вопрос на немецком</div>
+  <div class="answers">
+    <div class="answer-item">
+      <span class="answer-num">1.</span>
+      <span class="answer-text">
+        <span class="de">Wo wohnst du?</span>
+        <div class="hint">Попитай къде живее.</div>
+      </span>
+    </div>
+    <div class="answer-item">
+      <span class="answer-num">2.</span>
+      <span class="answer-text">
+        <span class="de">Wo hängen die Plakate in deinem Zimmer?</span>
+        <div class="hint">Попитай къде висят плакатите в стаята.</div>
+      </span>
+    </div>
+    <div class="answer-item">
+      <span class="answer-num">3.</span>
+      <span class="answer-text">
+        <span class="de">Wo steht das Bett in deinem Zimmer?</span>
+        <div class="hint">Попитай къде стои леглото в стаята.</div>
+      </span>
+    </div>
+    <div class="answer-item">
+      <span class="answer-num">4.</span>
+      <span class="answer-text">
+        <span class="de">Wie viele Zimmer hat deine Wohnung?</span>
+        <div class="hint">Попитай колко стаи има.</div>
+      </span>
+    </div>
+    <div class="answer-item">
+      <span class="answer-num">5.</span>
+      <span class="answer-text">
+        <span class="de">Wo steht der Schreibtisch?</span>
+        <div class="hint">Попитай къде стои бюрото.</div>
+      </span>
+    </div>
+  </div>
+</div>
+
+<!-- TASK 34 -->
+<div class="task">
+  <div class="task-header">
+    <div class="task-number">34</div>
+    <div class="task-title">Übersetze ins Bulgarische</div>
+  </div>
+  <div class="task-desc">Переведи на болгарский</div>
+  <div class="answers">
+    <div class="answer-item">
+      <span class="answer-num">1.</span>
+      <span class="answer-text">
+        <span class="bg">Жилището е много уютно.</span>
+        <div class="hint">Die Wohnung ist sehr gemütlich.</div>
+      </span>
+    </div>
+    <div class="answer-item">
+      <span class="answer-num">2.</span>
+      <span class="answer-text">
+        <span class="bg">Жилището е централно разположено.</span>
+        <div class="hint">Die Wohnung ist zentral gelegen.</div>
+      </span>
+    </div>
+    <div class="answer-item">
+      <span class="answer-num">3.</span>
+      <span class="answer-text">
+        <span class="bg">Живея на 7-ия етаж.</span>
+        <div class="hint">Ich wohne in der 7. Etage.</div>
+      </span>
+    </div>
+    <div class="answer-item">
+      <span class="answer-num">4.</span>
+      <span class="answer-text">
+        <span class="bg">Жилището има 3 стаи, кухня и баня.</span>
+        <div class="hint">Die Wohnung hat 3 Zimmer, Küche und Bad.</div>
+      </span>
+    </div>
+    <div class="answer-item">
+      <span class="answer-num">5.</span>
+      <span class="answer-text">
+        <span class="bg">Това е светло жилище в покрайнините на града.</span>
+        <div class="hint">Das ist eine helle Wohnung am Stadtrand.</div>
+      </span>
+    </div>
+  </div>
+</div>
+
+</div>
+</body>
+</html>
